@@ -5,11 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tristan Whalen Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+  <style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Light blue background */
+    color: #000;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+}
+
+.logo-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #007BFF;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+.profile-photo {
+    width: 300px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.about-text p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Projects Section */
+.projects-section, .skills-section, .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projects-section h2, .skills-section h2, .contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #000;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </style>
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>TW</h1>
+            <img src="NameProject228.png" alt="TW Logo" class="logo-image">
             <p>Tristan Whalen</p>
         </div>
         <nav>
@@ -26,7 +145,7 @@
         <!-- About Section -->
         <section id="about" class="about-section">
             <div class="about-content">
-                <img src="ME.1.png" alt="Tristan Whalen" class="profile-photo">
+                <img src="Me.2.png" alt="Tristan Whalen" class="profile-photo">
                 <div class="about-text">
                     <h2>About Me</h2>
                     <p>Hi, my name is Tristan, and I'm a student at the University of Waterloo. I'm passionate about combining design and technology to solve problems and create meaningful experiences for all.</p>
